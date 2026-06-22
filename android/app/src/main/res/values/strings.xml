@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 네이버 개발자센터(https://developers.naver.com)에서 발급받은 값으로 교체하세요. -->
+    <string name="naver_client_id">YOUR_NAVER_CLIENT_ID</string>
+    <string name="naver_client_secret">YOUR_NAVER_CLIENT_SECRET</string>
+    <string name="naver_client_name">youtube_clone</string>
+</resources>
