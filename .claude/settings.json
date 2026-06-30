@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_CODE_DESIGN_MCP": "1"
+  },
   "permissions": {
     "allow": [],
     "additionalDirectories": ["/Users/obiwan/Dev/flutter-tutorial/server"]

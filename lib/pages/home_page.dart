@@ -21,10 +21,10 @@ class Video {
 }
 
 /// Placeholder feed data. This will be replaced with real data from the
-/// backend resource server later in the tutorial.
+/// backend resource server as the prototype evolves.
 const _demoVideos = <Video>[
   Video(
-    title: 'Building a YouTube Clone in Flutter — Full Tutorial',
+    title: 'Building LIVO in Flutter — Full Walkthrough',
     channelName: 'Flutter Devs',
     views: '1.2M views',
     uploadedAt: '3 days ago',
@@ -66,7 +66,7 @@ class HomePage extends ConsumerWidget {
             const Icon(Icons.play_arrow, color: Colors.red, size: 28),
             const SizedBox(width: 4),
             Text(
-              'YouTube',
+              'LIVO',
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.w600,
                 letterSpacing: -1,

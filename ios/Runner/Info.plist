@@ -13,7 +13,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Youtube Clone</string>
+	<string>LIVO</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,7 +21,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>youtube_clone</string>
+	<string>LIVO</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -73,7 +73,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<!-- 소셜 로그인 콜백 URL 스킴. 아래 placeholder 를 실제 값으로 교체하세요.
-	     - 구글: GoogleService-Info.plist 의 REVERSED_CLIENT_ID (com.googleusercontent.apps.xxxx)
+	     - 구글: Google Cloud 콘솔의 iOS OAuth 클라이언트 REVERSED_CLIENT_ID (com.googleusercontent.apps.xxxx)
 	     - 네이버: 네이버 개발자센터에 등록한 iOS URL Scheme -->
 	<key>CFBundleURLTypes</key>
 	<array>
@@ -82,7 +82,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.googleusercontent.apps.YOUR_GOOGLE_REVERSED_CLIENT_ID</string>
+				<string>com.googleusercontent.apps.832649409497-2lsqjf1aa3msqr3h93bf31oj523476jk</string>
 			</array>
 		</dict>
 		<dict>
@@ -96,7 +96,7 @@
 	</array>
 	<!-- 구글 로그인(google_sign_in) iOS 클라이언트 ID -->
 	<key>GIDClientID</key>
-	<string>YOUR_GOOGLE_IOS_CLIENT_ID.apps.googleusercontent.com</string>
+	<string>832649409497-2lsqjf1aa3msqr3h93bf31oj523476jk.apps.googleusercontent.com</string>
 	<!-- 네이버 로그인(naver_login_flutter) iOS 설정 -->
 	<key>NidUrlScheme</key>
 	<string>YOUR_NAVER_URL_SCHEME</string>
